@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px */
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section {
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.form-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00000087;
+  width: 100%;
+  height: 100%;
+}
+.form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50rem;
+  border: 1px solid #aaa;
+  background: #fff;
+  padding: 2rem;
+}
+
+.input {
+  width: 100%;
+  height: 4rem;
+  padding-left: 1rem;
+  border: 1px solid #0e4b81;
+  background: aliceblue;
+  margin-bottom: 1rem;
+  outline: none;
+}
+/* AddProject component */
+.inputs-tools {
+  display: flex;
+  gap: 1rem;
+}
+
+.input.error {
+  border: 1px solid #780202;
+  background: #f61d1d74;
+}
+
+.textarea {
+  height: 8rem;
+  padding: 1rem;
+}
+.btns-flex {
+  display: flex;
+  justify-content: end;
+}
+.btn-form {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.8rem 1.4rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn-send {
+  color: #eee;
+  background: #12558f;
+  margin-right: 1rem;
+  border: none;
+  border-bottom: 0.5rem solid #052d50;
+}
+.btn-cancle {
+  color: #eee;
+  background: #666;
+  margin-right: 1rem;
+  border: none;
+  border-bottom: 0.5rem solid #333;
+}
+.btn-send:hover {
+  background: #052d50;
+  border-bottom: 0.5rem solid #031a2d;
+}
+.btn-cancle:hover {
+  background: #333;
+  border-bottom: 0.5rem solid #111;
+}
+
+/* 700px */
+@media (max-width: 43.75em) {
+  /* html { */
+  /* 9px */
+  /* font-size: 56.25%; */
+  /* } */
+}
+
+/* 500px */
+@media (max-width: 31.25em) {
+  /* html { */
+  /* 8px */
+  /* font-size: 50%; */
+  /* } */
+}
+
+/* 400px */
+
+@media (max-width: 25em) {
+  /* html { */
+  /* 7px */
+  /* font-size: 43.75%; */
+  /* } */
+}

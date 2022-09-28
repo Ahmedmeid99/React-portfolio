@@ -1,0 +1,29 @@
+.btn-add {
+  border: none;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  color: #eee;
+  background-color: #448cec;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.message {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 1.5rem;
+  background: white;
+  padding: 0.5rem 1rem;
+  color: #780202;
+  font-weight: 700;
+}

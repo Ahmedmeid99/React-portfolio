@@ -1,19 +1,20 @@
 import classes from "./Card.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink, faCode } from '@fortawesome/free-solid-svg-icons'
-const Card = () => {
+const Card = (props) => {
     return (
         <div className={ classes.card }>
-            <div className={ classes['img-cover'] }><img src="" alt="" /></div>
+            <div className={ classes['img-cover'] }><img src={ props.project.imgLink } alt="img...!" /></div>
             <div className={ classes['card-content'] }>
-                <h3 className={ classes['card-title'] }>notes app</h3>
-                <p className={ classes['card-description'] }>The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href</p>
+                <h3 className={ classes['card-title'] }>{ props.project.title }</h3>
+                <p className={ classes['card-description'] }>{ props.project.description }</p>
                 <div className={ classes['btn-group'] }>
-                    <button className={ classes['btn'] }><FontAwesomeIcon icon={ faCode } /></button>
-                    <button className={ classes['btn'] }><FontAwesomeIcon icon={ faLink } /></button>
+                    <a href={ props.project.githubLink } className={ classes['btn'] } target="_blanck"><FontAwesomeIcon icon={ faCode } /></a>
+                    <a href={ props.project.liveLink } className={ classes['btn'] } target="_blanck"><FontAwesomeIcon icon={ faLink } /></a>
                 </div>
             </div>
         </div>
     )
+
 }
 export default Card

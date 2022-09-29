@@ -1,16 +1,23 @@
 import classes from "./Projects.module.css"
+import projectsActions from "../store/redux"
+import { useDispatch } from 'react-redux'
 import Cards from "./Cards"
 import Model from "./Model"
 
 const Projects = () => {
+    const dispatch = useDispatch()
+    const filterBy = (mainTool) => {
+        mainTool = mainTool.toLowerCase()
+        dispatch(projectsActions.filterByTool(mainTool))
+    }
     return (
         <div className="container section">
             <div className={ classes['projects-controller'] }>
-                <div className={ classes.option }>own</div>
-                <div className={ classes.option }>react</div>
-                <div className={ classes.option }>node</div>
-                <div className={ classes.option }>js</div>
-                <div className={ classes.option }>html / css</div>
+                <div onClick={ () => filterBy('own') } className={ classes.option }>own</div>
+                <div onClick={ () => filterBy('react') } className={ classes.option }>node</div>
+                <div onClick={ () => filterBy('node') } className={ classes.option }>react</div>
+                <div onClick={ () => filterBy('js') } className={ classes.option }>js</div>
+                <div onClick={ () => filterBy('css') } className={ classes.option }>html / css</div>
             </div>
             {/* cards */ }
             <Cards />

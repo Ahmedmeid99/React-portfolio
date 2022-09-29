@@ -51,6 +51,7 @@
   font-size: 2rem;
   font-weight: 500;
   padding: 2rem;
+  text-align: center;
   transition: all 0.5s;
   cursor: pointer;
 }

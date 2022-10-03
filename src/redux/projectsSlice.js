@@ -13,7 +13,7 @@ const addOne = async (project) => {
     const data = await responsive.json()
     console.log(data)
 }
-const projectsSlice = createSlice({
+export const projectsSlice = createSlice({
     name: 'projects',
     initialState: { projects: [], filtered: [] },
     reducers: {
@@ -32,10 +32,6 @@ const projectsSlice = createSlice({
             return { ...state, filtered: filteredProjects }
         }
     }
-})
-
-export const store = configureStore({
-    reducer: { projects: projectsSlice.reducer }
 })
 
 const projectsActions = projectsSlice.actions

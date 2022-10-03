@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../components/Header'
-import Landing from '../components/Landing'
-import Projects from '../components/Projects'
+import Header from '../layout/Header'
+import Landing from '../layout/Landing'
+import Projects from '../components/projects/Projects'
 const HomePage = () => {
   return (
     <>

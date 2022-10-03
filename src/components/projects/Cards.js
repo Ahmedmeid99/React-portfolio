@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 import Card from './Card'
-import projectsActions from "../store/redux"
+import projectsActions from "../../redux/projectsSlice"
 import { useSelector, useDispatch } from "react-redux"
 import classes from "./Cards.module.css"
 

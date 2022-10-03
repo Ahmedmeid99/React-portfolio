@@ -10,9 +10,10 @@
   font-weight: 500;
   cursor: pointer;
   position: absolute;
-  bottom: -3rem;
+  bottom: 0rem;
   right: 0rem;
   transition: all 0.5s;
+  animation: popup 0.5s;
 
   display: flex;
   justify-content: center;
@@ -22,12 +23,11 @@
   background-color: #14407a;
 }
 
-.message {
-  position: absolute;
-  bottom: 2rem;
-  font-size: 1.5rem;
-  background: white;
-  padding: 0.5rem 1rem;
-  color: #780202;
-  font-weight: 700;
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  from {
+    transform: scale(0);
+  }
 }

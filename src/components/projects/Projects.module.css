@@ -17,8 +17,16 @@
   border-left: 1px solid #eee;
   margin: auto;
   cursor: pointer;
+  user-select: none;
 }
 .option:hover {
   background-color: rosybrown;
   background-color: #eee;
+}
+@media (max-width: 31.25em) {
+  .option {
+    /* 8px */
+    padding: 1rem;
+    font-size: 1.7rem;
+  }
 }

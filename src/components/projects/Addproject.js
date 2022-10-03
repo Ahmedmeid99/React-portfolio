@@ -1,8 +1,6 @@
 import { useState, useRef } from "react"
-import projectsActions from "../store/redux"
+import projectsActions from "../../redux/projectsSlice"
 import { useSelector, useDispatch } from "react-redux"
-
-
 
 const AddProject = (props) => {
     const dispatch = useDispatch()

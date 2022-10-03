@@ -1,5 +1,5 @@
 import classes from "./Projects.module.css"
-import projectsActions from "../store/redux"
+import projectsActions from "../../redux/projectsSlice"
 import { useDispatch } from 'react-redux'
 import Cards from "./Cards"
 import Model from "./Model"

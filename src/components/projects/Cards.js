@@ -38,7 +38,6 @@ const Cards = (props) => {
             // return projectsArray
             dispatch(projectsActions.setProjects(projectsArray))
 
-            console.log("projects", projects)
         } catch (e) {
             console.log('error =>')
         }

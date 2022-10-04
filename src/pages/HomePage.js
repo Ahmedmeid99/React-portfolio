@@ -1,15 +1,16 @@
 import React from "react";
-import Header from '../layout/Header'
-import Landing from '../layout/Landing'
+import Layout from '../Ui/Layout'
+import HomeHeader from '../layout/headers/HomeHeader'
 import Projects from '../components/projects/Projects'
+import Certificates from '../components/my-certificates/Certificates'
 const HomePage = () => {
   return (
     <>
-      <div className="section">
-        <Header />
-        <Landing />
-      </div>
+      <Layout>
+        <HomeHeader />
+      </Layout>
       <Projects />
+      <Certificates />
     </>
   )
 };

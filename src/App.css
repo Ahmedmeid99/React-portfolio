@@ -8,7 +8,9 @@ html {
   /* 10px */
   font-size: 62.5%;
 }
-
+body {
+  font-family: system-ui;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -32,9 +34,9 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #00000087;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
+  width: 101%;
+  height: 101%;
+  z-index: 9998;
 }
 .form {
   position: fixed;
@@ -117,17 +119,17 @@ html {
 .bg-green {
   background: #00b008b8;
 }
+
 .alert {
   width: 100%;
   animation: alertAnimation 1s ease-out;
 }
 .success-alert {
   z-index: 999;
-  height: 5rem;
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(1px);
 }
 
 @keyframes alertAnimation {
@@ -140,27 +142,20 @@ html {
 }
 
 /* ************************************ */
-/* 700px */
-@media (max-width: 43.75em) {
-  /* html { */
-  /* 9px */
-  /* font-size: 56.25%; */
-  /* } */
-}
-
-/* 500px */
-@media (max-width: 31.25em) {
+@media (max-width: 900px) {
   html {
-    /* 8px */
-    font-size: 55%;
+    font-size: 56%;
   }
 }
 
-/* 400px */
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
 
-@media (max-width: 25em) {
-  /* html { */
-  /* 7px */
-  /* font-size: 43.75%; */
-  /* } */
+@media (max-width: 500px) {
+  html {
+    font-size: 47%;
+  }
 }

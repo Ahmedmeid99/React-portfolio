@@ -1,0 +1,32 @@
+.projects-controller {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 6rem;
+  border: 1px solid #eee;
+
+  display: flex;
+  justify-content: center;
+}
+.option {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #aaa;
+  padding: 1rem 2rem;
+  transition: all 0.5s;
+  text-transform: capitalize;
+  border-left: 1px solid #eee;
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
+}
+.option:hover {
+  background-color: rosybrown;
+  background-color: #eee;
+}
+@media (max-width: 31.25em) {
+  .option {
+    /* 8px */
+    padding: 1rem;
+    font-size: 1.7rem;
+  }
+}

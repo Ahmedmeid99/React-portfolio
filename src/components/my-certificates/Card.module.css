@@ -1,0 +1,93 @@
+.card {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+  animation: show 1s linear;
+}
+@keyframes show {
+  0% {
+    transform: translateY(5rem);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(2.5rem);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+.img-cover {
+  width: 100%;
+  background-color: #aaa;
+}
+
+.img-cover img {
+  width: 100%;
+  display: block;
+}
+.img-focus-cover {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 35%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+.img-focus-cover img {
+  width: 100%;
+}
+.close-btn {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 1rem 1.4rem;
+  border-radius: 50%;
+  background: #eee;
+  color: #555;
+}
+.btn-group {
+  display: flex;
+}
+.btn {
+  width: 100%;
+  border: 1px solid #eee;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #eee;
+  color: #0c2f90;
+}
+@media (max-width: 1000px) {
+  .img-focus-cover {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .img-focus-cover {
+    width: 67%;
+  }
+}
+@media (max-width: 800px) {
+  .img-focus-cover {
+    width: 65%;
+  }
+}
+@media (max-width: 700px) {
+  .img-focus-cover {
+    width: 75%;
+  }
+}
+@media (max-width: 600px) {
+  .img-focus-cover {
+    width: 90%;
+  }
+}

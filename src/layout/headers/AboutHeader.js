@@ -14,6 +14,7 @@ const AboutHeader = () => {
         <div className={ classes.landing }>
 
             <div className="center">
+                <h1 className={ classes['header-title'] }>About Me</h1>
             </div>
         </div>
     )

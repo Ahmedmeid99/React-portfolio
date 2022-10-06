@@ -13,22 +13,36 @@
   background-size: cover;
 }
 /* ********************* */
-.welcome {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+.header-title {
+  font-size: 6rem;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+  color: #f4f7ff;
+  text-transform: uppercase;
+  background-image: url("../../assets/images/1664907957247.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: contain;
 }
-.welcome h3 {
-  font-size: 1.3rem;
+
+.icon {
+  font-size: 5rem;
 }
-.right-mark,
-.close-alert {
-  color: #033c03;
+.node-icon {
+  color: lime;
 }
-.right-mark {
-  font-size: 2rem;
+.react-icon {
+  color: #00ffff;
 }
-.close-alert {
-  font-size: 1.3rem;
-  cursor: pointer;
+.js-icon {
+  color: #fff700;
+}
+.css-icon {
+  color: #0072ff;
+}
+.html-icon {
+  color: #ff5200;
 }

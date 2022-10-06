@@ -42,14 +42,14 @@ nav {
 
 .list-item a {
   text-decoration: none;
+  color: #d7d7d7;
   font-size: 1.7rem;
   font-weight: 700;
-  color: #0e3594;
   transition: 0.3s;
 }
 
 .list-item .active {
-  color: #eee;
+  color: #0e3594;
 }
 
 .btn {

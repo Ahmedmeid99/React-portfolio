@@ -1,0 +1,35 @@
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 6rem auto;
+}
+.col {
+  padding: 1rem;
+  border: 1px solid #eee;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.col:hover {
+  background-color: #eee;
+}
+.icon {
+  font-size: 4rem;
+}
+
+.linkedin {
+  color: #0057b1;
+}
+.gmail {
+  color: #bfd5eb;
+}
+.phone {
+  color: #12b588;
+}
+.link {
+  color: #919191;
+  text-decoration: none;
+  font-size: 2rem;
+}

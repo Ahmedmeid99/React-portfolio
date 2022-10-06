@@ -11,6 +11,9 @@ html {
 body {
   font-family: system-ui;
 }
+/*###################################*/
+/*########[ Global classes ]#########*/
+/*###################################*/
 .container {
   width: 80%;
   margin: auto;
@@ -22,12 +25,27 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .section {
   margin-bottom: 6rem;
   position: relative;
   overflow-x: hidden;
 }
-
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.position-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
+.mb {
+  margin-bottom: 6rem;
+}
+/* ************************************ */
+/* Forms style */
 .form-bg {
   position: fixed;
   top: 50%;
@@ -38,6 +56,7 @@ body {
   height: 101%;
   z-index: 9998;
 }
+
 .form {
   position: fixed;
   top: 50%;
@@ -59,7 +78,7 @@ body {
   margin-bottom: 1rem;
   outline: none;
 }
-/* AddProject component */
+
 .inputs-tools {
   display: flex;
   gap: 1rem;
@@ -116,6 +135,8 @@ body {
   color: #780202;
   font-weight: 700;
 }
+/* ************************************ */
+/* Alerts */
 .bg-green {
   background: #00b008b8;
 }
@@ -142,6 +163,7 @@ body {
 }
 
 /* ************************************ */
+/* ************************************ */
 @media (max-width: 900px) {
   html {
     font-size: 56%;
@@ -157,5 +179,8 @@ body {
 @media (max-width: 500px) {
   html {
     font-size: 47%;
+  }
+  .container {
+    width: 90%;
   }
 }

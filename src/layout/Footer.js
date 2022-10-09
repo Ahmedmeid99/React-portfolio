@@ -7,9 +7,9 @@ const Footer = () => {
         <div className={ classes.footer }>
             <h3 className={ classes.title }>portfolio website</h3>
             <div className={ `${classes.icons} ${classes.flex}` }>
-                <FontAwesomeIcon className={ `${classes.icon} ${classes.linkedin}` } icon={ faLinkedin } />
-                <FontAwesomeIcon className={ `${classes.icon} ${classes.github}` } icon={ faSquareGithub } />
-                <FontAwesomeIcon className={ `${classes.icon} ${classes.codepen}` } icon={ faCodepen } />
+                <a href="https://www.linkedin.com/in/ahmed-mohamed-eid-267543225" target="_blank"><FontAwesomeIcon className={ `${classes.icon} ${classes.linkedin}` } icon={ faLinkedin } /></a>
+                <a href="https://github.com/Ahmedmeid99" target="_blank"><FontAwesomeIcon className={ `${classes.icon} ${classes.github}` } icon={ faSquareGithub } /></a>
+                <a href="https://codepen.io/ahmedmeid99" target="_blank"><FontAwesomeIcon className={ `${classes.icon} ${classes.codepen}` } icon={ faCodepen } /></a>
             </div>
             <div className={ `${classes.pages} ${classes.flex}` }>
                 <Link end to="/">home</Link>

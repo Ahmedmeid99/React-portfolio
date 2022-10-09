@@ -5,6 +5,7 @@
 .title {
   color: rgb(8, 49, 110);
   padding: 1.7rem;
+  margin-bottom: 2rem;
   text-align: center;
   font-size: 3rem;
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
@@ -16,7 +17,7 @@
   gap: 2rem;
 }
 .icons {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .icon {
   font-size: 3rem;
@@ -39,11 +40,12 @@
   color: #aaa;
 }
 .codepen {
-  color: #00012a;
+  color: #0a10d3;
 }
 .linktitle {
   color: rgb(111, 111, 111);
   font-size: 1.7rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 .link {

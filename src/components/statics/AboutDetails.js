@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import classes from "./AboutDetails.module.css"
 const skills = {
-    react: ['React-basics', "Hooks", "Redux toolkit", "state & setstate", "Lifecycle methods", "vaildation", "conditional content", "Css modules", "styled component", "..."],
+    react: ['React-basics', "React-Router", "Hooks", "Redux toolkit", "state & setstate", "Lifecycle methods", "vaildation", "conditional content", "Css modules", "styled component", "..."],
     node: ['Node.js-basic', "Express & Routes", "Moongodb & CRUD", "Modules", "Jwt", "File system", "Authentication", "File uploads", "Pagination", "Web socket", "..."],
     js: ['Js-basic', "DOM", "BOM", "OOP", "Debugging", "dev tools", "Render Function", "Promis", "Async & Await", "APIs & CRUD", "Try Catch", "..."],
     css: ['Css-basic', "Selectors", "Pseudo classes", "Pseudo elements", "Position", "Display", "Flex", "Grid", "Box model", "Responsive design", "Animation", "..."],

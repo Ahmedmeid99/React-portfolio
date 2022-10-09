@@ -1,10 +1,11 @@
-import Navbar from "../layout/Navbar"
+import Footer from "../layout/Footer"
 const Layout = (props) => {
     return (
-        <div className="section">
-            <Navbar />
+        <>
             { props.children }
-        </div>
+            <Footer />
+
+        </>
     )
 };
 export default Layout

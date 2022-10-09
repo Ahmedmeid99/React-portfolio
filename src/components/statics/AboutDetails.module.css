@@ -8,46 +8,29 @@
   font-size: 2rem;
 }
 .row {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 2rem;
 }
+
 .edu {
   border: 1px solid #eee;
 }
-.flex {
-  padding: 1.7rem 2.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-
-  gap: 2rem;
-}
-.flex:hover {
-  background-color: #eee;
+.maintitle {
+  padding: 1.6rem 2.3rem;
 }
 .title {
   font-size: 2rem;
   color: #222;
 }
+
 .title > code {
   color: rgb(203, 203, 203);
   font-weight: 400;
   font-style: italic;
   font-size: 1.6rem;
 }
-.chevron {
-  font-size: 3rem;
-  color: #aaa;
-  transition: all 0.5s;
-}
-.up {
-  transform: rotate(180deg);
-}
-.down {
-  transform: rotate(0deg);
-}
+
 .text {
   padding: 0.7rem 4rem;
   margin-bottom: 1.5rem;
@@ -66,7 +49,7 @@
   color: #111;
   font-weight: 500;
   /* border: 1px solid #aaa; */
-  padding: 0.8rem;
+  padding: 0.6rem;
 }
 .list-title {
   font-size: 1.7rem;
@@ -80,7 +63,7 @@
   padding: 0 1rem 0 4rem;
 }
 .list li {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
   color: #000;
   font-weight: 700;
@@ -89,4 +72,63 @@ li > code {
   color: rgb(203, 203, 203);
   font-weight: 400;
   font-style: italic;
+}
+/* ################### */
+.flex {
+  padding: 1.7rem 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 2rem;
+}
+
+.flex:hover {
+  background-color: #eee;
+}
+.skillsrow {
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.skilledu {
+  border-top: 3px solid rgb(9, 164, 167);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+.skilltitle {
+  color: rgb(9, 164, 167);
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.chevron {
+  font-size: 2.5rem;
+  color: rgb(9, 164, 167);
+  transition: all 0.5s;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+.down {
+  transform: rotate(0deg);
+}
+.tecs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tec {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #eee;
+}
+@media (max-width: 500px) {
+  .row {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }

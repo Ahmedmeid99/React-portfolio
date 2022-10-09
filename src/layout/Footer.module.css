@@ -1,0 +1,64 @@
+.footer {
+  background-color: #111;
+  width: 100%;
+}
+.title {
+  color: rgb(8, 49, 110);
+  padding: 1.7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icons {
+  margin-bottom: 1rem;
+}
+.icon {
+  font-size: 3rem;
+}
+.pages a {
+  color: rgb(111, 111, 111);
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding-right: 1rem;
+  border-right: 1px solid #aaa;
+}
+.links {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.linkedin {
+  color: #005a9b;
+}
+.github {
+  color: #aaa;
+}
+.codepen {
+  color: #00012a;
+}
+.linktitle {
+  color: rgb(111, 111, 111);
+  font-size: 1.7rem;
+  text-align: center;
+}
+.link {
+  color: rgb(111, 111, 111);
+  font-size: 1.7rem;
+  text-align: center;
+  text-decoration: none;
+}
+.copyright {
+  background-color: rgb(9, 9, 9);
+  border-bottom: 7px solid rgb(8, 49, 110);
+}
+.copyright h3 {
+  color: rgb(111, 111, 111);
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1rem;
+}

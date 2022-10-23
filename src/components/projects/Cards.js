@@ -19,27 +19,29 @@ const Cards = (props) => {
     const fetchingData = async () => {
         try {
             setLoding(true)
-            const responsive = await fetch('https://react-http-f4f9d-default-rtdb.firebaseio.com/portfolioprojects.json')
-            if (!responsive.ok) {
-                throw new Error('something went wrong!')
-            }
-            const data = await responsive.json()
-            const projectsArray = []
-            for (const key in data) {
-                projectsArray.push({
-                    id: key,
-                    imgLink: data[key].imgLink,
-                    githubLink: data[key].githubLink,
-                    liveLink: data[key].liveLink,
-                    mainTool: data[key].mainTool,
-                    tools: data[key].tools,
-                    title: data[key].title,
-                    description: data[key].description
-                })
+            setTimeout(async () => {
+                const responsive = await fetch('https://react-http-f4f9d-default-rtdb.firebaseio.com/portfolioprojects.json')
+                if (!responsive.ok) {
+                    throw new Error('something went wrong!')
+                }
+                const data = await responsive.json()
+                const projectsArray = []
+                for (const key in data) {
+                    projectsArray.push({
+                        id: key,
+                        imgLink: data[key].imgLink,
+                        githubLink: data[key].githubLink,
+                        liveLink: data[key].liveLink,
+                        mainTool: data[key].mainTool,
+                        tools: data[key].tools,
+                        title: data[key].title,
+                        description: data[key].description
+                    })
+                }
+                dispatch(projectsActions.setProjects(projectsArray))
                 setLoding(false)
-            }
+            }, 5000)
             // return projectsArray
-            dispatch(projectsActions.setProjects(projectsArray))
 
         } catch (e) {
             console.log('error =>')

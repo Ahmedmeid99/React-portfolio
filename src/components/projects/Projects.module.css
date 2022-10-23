@@ -23,6 +23,7 @@
   background-color: rosybrown;
   background-color: #eee;
 }
+
 @media (max-width: 31.25em) {
   .option {
     /* 8px */

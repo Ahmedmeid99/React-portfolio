@@ -29,7 +29,7 @@ export const projectsSlice = createSlice({
         filterByTool(state, action) {
             const filteredProjects = state.projects.filter((project) => project.mainTool === action.payload)
 
-            return { ...state, filtered: filteredProjects }
+            state.filtered = filteredProjects
         }
     }
 })

@@ -12,8 +12,27 @@ body {
   font-family: system-ui;
 }
 /*###################################*/
+/*########[ themes classes ]#########*/
+.light {
+  background-color: #fff;
+}
+.dark {
+  background-color: #222;
+}
+.light-title {
+  color: #222;
+}
+.dark-title {
+  color: #fff;
+}
+/*###################################*/
+/*###################################*/
 /*########[ Global classes ]#########*/
 /*###################################*/
+.full {
+  width: 100%;
+  height: fit-content;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -27,7 +46,7 @@ body {
 }
 
 .section {
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
   position: relative;
   overflow-x: hidden;
 }
@@ -41,8 +60,8 @@ body {
   bottom: 2rem;
   left: 0;
 }
-.mb {
-  margin-bottom: 3rem;
+.pb {
+  padding-bottom: 3rem;
 }
 /* ************************************ */
 /* Forms style */

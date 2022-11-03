@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react'
 import { NavLink, Link } from "react-router-dom"
 import usersActions from "../redux/usersSlice"
+import themActions from "../redux/themSlice"
 import { useSelector, useDispatch } from 'react-redux'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,6 +25,11 @@ const Navbar = () => {
     const setAsAdmin = () => dispatch(usersActions.setAsAdmin())
     const setAsUser = () => dispatch(usersActions.setAsUser())
     const reset = () => dispatch(usersActions.reset())
+    //-----------------------( themes )-----------------------//
+    const them = useSelector((state) => state.them.them)
+    const toggleThem = () => {
+        dispatch(themActions.toggleThem())
+    }
     /////////////////////////////////////////////////
     // FORM
     /////////////////////////////////////////////////
@@ -64,9 +70,9 @@ const Navbar = () => {
     // inputs style
     const emailInputStyle = emailIsValid ? 'input' : 'input error'
     const passwordInputStyle = passwordIsValid ? 'input' : 'input error'
-
+    const themBtnStyle = them === 'light' ? "dark" : "light";
     return (
-        <header className={ classes.header }>
+        <header className={ `${classes.header} ${them}` }>
             { formOpen && <div onClick={ removeFormHandler } className='form-bg'></div> }
             { formOpen && <form onSubmit={ submitHandler } className='form'>
                 <input ref={ emailInput } onChange={ checkHandler } className={ emailInputStyle } type="email" placeholder='gmail' />
@@ -93,6 +99,7 @@ const Navbar = () => {
                         <li className={ classes['list-item'] }><NavLink to="/contactus" className={ ({ isActive }) => (isActive ? classes.active : '') }>contactus</NavLink></li>
                         { !isLogedin && <button onClick={ openFormHandler } className={ `${classes.btn} ${classes['btn-login']}` }>login</button> }
                         { isLogedin && <button onClick={ reset } className={ `${classes.btn} ${classes['btn-login']}` }>logout</button> }
+                        <button onClick={ toggleThem } className={ `${classes.btn} ${themBtnStyle}-title ${themBtnStyle}` } style={ { border: 'none' } } >{ themBtnStyle }</button>
                     </ul>
                 </nav>
             </div>

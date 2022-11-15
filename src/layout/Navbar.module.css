@@ -7,12 +7,6 @@
   background: #fff;
   overflow: hidden;
 }
-/* class fixed */
-/* 
-position: fixed;
-    top: 0;
-    left: 0;
-*/
 .flex {
   display: flex;
   justify-content: space-between;
@@ -22,12 +16,9 @@ position: fixed;
 .logo {
   font-size: 2.5rem;
   font-weight: 900;
-  background-image: url("../assets/images/1664907957247.jpg");
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-position: center;
-  background-size: cover;
+  text-decoration: none;
+  color: #0484dc;
+  font-family: cursive;
 }
 
 nav {
@@ -49,9 +40,11 @@ nav {
 }
 
 .list-item .active {
-  color: #0e3594;
+  color: #0484dc;
 }
-
+.list-item a:hover {
+  color: #0484dc;
+}
 .btn {
   padding: 0.8rem 1.9rem;
   transition: all 0.3s;
@@ -77,9 +70,8 @@ nav {
 }
 .o-icon-cover {
   display: none;
-  border: 3px solid #eee;
   cursor: pointer;
-  color: #0e3594;
+  color: #0484dc;
 }
 .icon {
   font-size: 3rem;
@@ -90,7 +82,7 @@ nav {
 /* .faXmark {
  
 } */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .header {
     height: 10rem;
   }
@@ -119,6 +111,9 @@ nav {
   .list-item a {
     font-size: 2.5rem;
     color: #eee;
+  }
+  .list-item .active {
+    color: #002669;
   }
   .btn {
     padding: 1.5rem 3rem;

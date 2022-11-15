@@ -9,7 +9,7 @@
 }
 .image {
   flex: 1;
-  background-image: url("../../assets/images/CreateWebsite740.jpg");
+  /* background-image: url("../../assets/images/CreateWebsite740.jpg"); */
   background-position: center;
   background-size: cover;
 }

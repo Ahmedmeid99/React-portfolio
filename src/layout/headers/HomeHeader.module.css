@@ -1,17 +1,49 @@
+:root {
+  /* main color */
+  --main-color1: #0484dc;
+
+  --main-color2: #024c9e;
+  --main-color3: #002669;
+  --main-color-1: #3dadea;
+  --main-color-2: #98e4fb;
+  --main-color-3: #cbf4fd;
+  --main-color0: #3dadea91;
+  --success-color1: #3ec93e;
+  --success-color2: #0b6029;
+  --danger-color1: #fc473a;
+  --danger-color2: #921229;
+  --light-color: #eee;
+  --grey-color: #aaa;
+  --dark-0: #000;
+  --dark-1: #111;
+  --dark-2: #222;
+  --dark-3: #333;
+}
+
 /* ########## */
 .landing {
   position: relative;
   width: 100%;
   height: 60vh;
-  background-image: linear-gradient(
-      108deg,
-      rgba(5, 13, 101, 0.502),
-      rgba(4, 93, 108, 0.449)
-    ),
-    url("../../assets/images/MzI0NDQ4Ng.jpg");
+  background-image: url("../../assets/images/subscribe.jpg");
   background-position: center;
   background-size: cover;
-  /* background: linear-gradient(108deg, #0b2d8f, #38a8dd); */
+}
+.landing > div {
+  width: 75%;
+  padding: 2rem 4rem;
+  background: var(--main-color0);
+  text-shadow: 0px 1px 3px rgb(0 0 0 / 70%);
+}
+@media (max-width: 500px) {
+  .landing > div {
+    width: 85%;
+  }
+}
+@media (max-width: 400px) {
+  .landing > div {
+    width: 90%;
+  }
 }
 /* ********************* */
 .welcome {
@@ -24,7 +56,7 @@
 }
 .right-mark,
 .close-alert {
-  color: #033c03;
+  color: var(--success-color2);
 }
 .right-mark {
   font-size: 2rem;
@@ -54,7 +86,7 @@
 }
 .mern {
   text-transform: uppercase;
-  background-image: url("../../assets/images/1664907957247.jpg");
+  background-image: url("../../assets/images/design-features.jpg");
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

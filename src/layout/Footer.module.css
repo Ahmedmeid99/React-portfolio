@@ -3,7 +3,7 @@
   width: 100%;
 }
 .title {
-  color: rgb(8, 49, 110);
+  color: #0484dc;
   padding: 1.7rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -34,13 +34,13 @@
   margin-bottom: 2rem;
 }
 .linkedin {
-  color: #005a9b;
+  color: #3dadea;
 }
 .github {
   color: #aaa;
 }
 .codepen {
-  color: #0a10d3;
+  color: #024c9e;
 }
 .linktitle {
   color: rgb(111, 111, 111);
@@ -56,7 +56,7 @@
 }
 .copyright {
   background-color: rgb(9, 9, 9);
-  border-bottom: 7px solid rgb(8, 49, 110);
+  border-bottom: 7px solid #024c9e;
 }
 .copyright h3 {
   color: rgb(111, 111, 111);

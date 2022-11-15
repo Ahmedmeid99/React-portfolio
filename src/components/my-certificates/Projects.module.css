@@ -20,8 +20,8 @@
   user-select: none;
 }
 .option:hover {
-  background-color: rosybrown;
-  background-color: #eee;
+  background: #0484dc;
+  color: #fff;
 }
 @media (max-width: 31.25em) {
   .option {

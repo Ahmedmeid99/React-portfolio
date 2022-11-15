@@ -29,19 +29,19 @@
   background-position: center;
   background-size: cover;
 }
-.landing > div {
+.landing .text {
   width: 75%;
   padding: 2rem 4rem;
   background: var(--main-color0);
   text-shadow: 0px 1px 3px rgb(0 0 0 / 70%);
 }
 @media (max-width: 500px) {
-  .landing > div {
+  .landing .text {
     width: 85%;
   }
 }
 @media (max-width: 400px) {
-  .landing > div {
+  .landing .text {
     width: 90%;
   }
 }
@@ -53,6 +53,7 @@
 }
 .welcome h3 {
   font-size: 1.3rem;
+  color: var(--success-color2);
 }
 .right-mark,
 .close-alert {

@@ -2,6 +2,7 @@
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
   background: #fff;
   animation: show 1s linear;
+  border-radius: 10px;
 }
 @keyframes show {
   0% {
@@ -20,15 +21,14 @@
 .img-cover {
   width: 100%;
   background-color: #aaa;
+  border-radius: 10px 10px 0 0;
 }
 .img-cover img {
   width: 100%;
   display: block;
+  border-radius: 10px 10px 0 0;
 }
 
-.img-cover {
-  width: 100%;
-}
 .card-title {
   font-size: 2rem;
   font-weight: 500;
@@ -48,13 +48,20 @@
 .btn {
   width: 100%;
   border: 1px solid #eee;
+  border-color: #eee #eee transparent #eee;
   color: #333;
   font-size: 2rem;
   font-weight: 500;
   padding: 2rem;
   text-align: center;
-  transition: all 0.5s;
+  transition: 0.3s;
   cursor: pointer;
+}
+.btn:nth-child(1) {
+  border-radius: 0 0 0 10px;
+}
+.btn:nth-child(2) {
+  border-radius: 0 0 10px 0;
 }
 .btn:hover {
   background-color: #eee;

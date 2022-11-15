@@ -50,6 +50,14 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+.section-title {
+  background: #3dadea91;
+  padding: 2rem 4rem;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .flex {
   width: 100%;
   display: flex;
@@ -157,7 +165,7 @@ body {
 /* ************************************ */
 /* Alerts */
 .bg-green {
-  background: #00b008b8;
+  background: #3ec93e;
 }
 
 .alert {

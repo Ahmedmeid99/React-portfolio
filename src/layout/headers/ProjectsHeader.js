@@ -19,7 +19,7 @@ const ProjectsHeader = () => {
     return (
         <div className={ classes.landing }>
 
-            <div className="center">
+            <div className="center section-title">
                 <h1 className={ classes['header-title'] }>Projects & Certificates</h1>
             </div>
             <div className='flex position-bottom'>

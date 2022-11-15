@@ -26,7 +26,7 @@ const Landing = () => {
             <FontAwesomeIcon icon={ faJs } className={ `${classes.icon} ${classes['js-icon']}` } />
             <FontAwesomeIcon icon={ faCss3 } className={ `${classes.icon} ${classes['css-icon']}` } />
             <FontAwesomeIcon icon={ faHtml5 } className={ `${classes.icon} ${classes['html-icon']}` } /> */}
-            <div className="center">
+            <div className={ `${classes.text} center` }>
                 <h1 className={ classes['header-title'] }>full stack developer <code className={ classes.mern }>(mern)</code></h1>
                 <p className={ classes['header-subtitle'] }>Hi my name is ahmed mohamed eid ,I am a MERN stack developer , I started learnning programming 12 months ago, I am constantly striving to increase my skills in creating web apps and learnning new technologies</p>
             </div>

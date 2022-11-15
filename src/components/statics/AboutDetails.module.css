@@ -15,6 +15,7 @@
 
 .edu {
   border: 1px solid #eee;
+  background-color: #0b6029;
 }
 .maintitle {
   padding: 1.6rem 2.3rem;
@@ -54,10 +55,9 @@
 .list-title {
   font-size: 1.7rem;
   width: fit-content;
-  border: 1px solid #aaa;
   padding: 1.3rem 1.5rem;
   margin: 1rem 0;
-  background: #eee;
+  background: #3ec93e;
 }
 .list {
   padding: 0 1rem 0 4rem;
@@ -93,12 +93,12 @@ li > code {
   gap: 2rem;
 }
 .skilledu {
-  border-top: 3px solid rgb(9, 164, 167);
+  border-top: 3px solid #0484dc;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
 }
 
 .skilltitle {
-  color: rgb(9, 164, 167);
+  color: #0484dc;
   font-weight: 600;
   font-style: italic;
   font-size: 2rem;
@@ -106,7 +106,7 @@ li > code {
 
 .chevron {
   font-size: 2.5rem;
-  color: rgb(9, 164, 167);
+  color: #0484dc;
   transition: all 0.5s;
 }
 
@@ -126,6 +126,7 @@ li > code {
   font-size: 1.4rem;
   padding: 0.5rem 1rem;
   border: 1px solid #eee;
+  color: #0484dc;
 }
 @media (max-width: 500px) {
   .row {

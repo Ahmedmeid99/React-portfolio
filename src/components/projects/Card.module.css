@@ -32,14 +32,17 @@
 .card-title {
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   padding: 1rem 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .card-description {
   line-height: 1.6;
   color: #333;
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
   padding: 0rem 1.5rem;
 }
 .btn-group {
@@ -66,4 +69,18 @@
 .btn:hover {
   background-color: #eee;
   color: #0484dc;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* tag list */
+.tag_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
 }

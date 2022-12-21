@@ -1,0 +1,49 @@
+.tag {
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  background: #ddd;
+  color: #222;
+  border: 1px dotted;
+}
+.js,
+.js-dom {
+  background: #38e75d9c;
+  color: #2c5924;
+}
+.css {
+  background: #384be79c;
+  color: #242759;
+}
+.html {
+  background: #e796389c;
+  color: #594724;
+}
+.node,
+.hooks {
+  background: #09c411b0;
+  color: #deffd9;
+}
+.express {
+  background: #2c09c4b0;
+  color: #e7daff;
+}
+.react,
+.redux {
+  background: #0916c4b0;
+  color: #d9f0ff;
+}
+.mongodb {
+  background: #86c409b0;
+  color: #eeffda;
+}
+.firebase,
+.api {
+  background: #e7e6389c;
+  color: #585924;
+}
+.bootstrap,
+.angular,
+.scss {
+  background: #c40909b0;
+  color: #ffdada;
+}

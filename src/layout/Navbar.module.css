@@ -14,8 +14,8 @@
 }
 
 .logo {
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 2.2rem;
+  font-weight: 500;
   text-decoration: none;
   color: #0484dc;
   font-family: cursive;
@@ -34,8 +34,8 @@ nav {
 .list-item a {
   text-decoration: none;
   color: #d7d7d7;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 400;
   transition: 0.3s;
 }
 
@@ -50,7 +50,7 @@ nav {
   transition: all 0.3s;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 .btn-login {
@@ -86,7 +86,7 @@ nav {
   .header {
     height: 10rem;
   }
-  .log {
+  .logo {
     font-size: 2.5rem;
   }
   nav {
@@ -109,7 +109,7 @@ nav {
     justify-content: center;
   }
   .list-item a {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #eee;
   }
   .list-item .active {

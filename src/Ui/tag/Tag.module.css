@@ -7,43 +7,46 @@
 }
 .js,
 .js-dom {
-  background: #38e75d9c;
-  color: #2c5924;
+  background: #182d15;
+  color: #e0fbdc;
 }
 .css {
-  background: #384be79c;
-  color: #242759;
+  background: #242759;
+  color: #cbcdeb;
 }
 .html {
-  background: #e796389c;
-  color: #594724;
+  background: #e79638;
+  color: #ffedd9;
 }
 .node,
 .hooks {
-  background: #09c411b0;
+  background: #098d0fe8;
   color: #deffd9;
 }
 .express {
-  background: #2c09c4b0;
+  background: #2c09c4e0;
   color: #e7daff;
 }
-.react,
 .redux {
-  background: #0916c4b0;
+  background: #c52184;
+  color: #fbe6f3cc;
+}
+.react {
+  background: #0916c4de;
   color: #d9f0ff;
 }
 .mongodb {
-  background: #86c409b0;
-  color: #eeffda;
+  background: #0499b8ed;
+  color: #daf8ffcc;
 }
 .firebase,
 .api {
-  background: #e7e6389c;
+  background: #e7e638d1;
   color: #585924;
 }
 .bootstrap,
 .angular,
 .scss {
-  background: #c40909b0;
+  background: #c40909db;
   color: #ffdada;
 }

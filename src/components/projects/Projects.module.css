@@ -1,14 +1,14 @@
 .projects-controller {
   width: fit-content;
   margin: auto;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   border: 1px solid #eee;
 
   display: flex;
   justify-content: center;
 }
 .option {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #aaa;
   padding: 1rem 2rem;

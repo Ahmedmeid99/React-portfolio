@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit"
 
 export const themSlice = createSlice({
     name: 'them',
-    initialState: { them: 'dark' },
+    initialState: { them: 'light' },
     reducers: {
         toggleThem(state, action) {
             if (state.them === "light") {

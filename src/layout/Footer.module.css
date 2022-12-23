@@ -1,6 +1,9 @@
 .footer {
-  background-color: #111;
+  background-color: #eee;
   width: 100%;
+}
+.dark-footer {
+  background-color: #111 !important;
 }
 .title {
   color: #0484dc;
@@ -55,8 +58,11 @@
   text-decoration: none;
 }
 .copyright {
-  background-color: rgb(9, 9, 9);
+  background-color: #ddd;
   border-bottom: 7px solid #024c9e;
+}
+.dark-copyright {
+  background-color: rgb(9, 9, 9) !important;
 }
 .copyright h3 {
   color: rgb(111, 111, 111);

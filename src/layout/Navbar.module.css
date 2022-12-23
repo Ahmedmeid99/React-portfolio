@@ -108,6 +108,9 @@ nav {
     align-items: center;
     justify-content: center;
   }
+  .list-dark {
+    background: #444 !important;
+  }
   .list-item a {
     font-size: 2.2rem;
     color: #eee;

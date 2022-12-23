@@ -40,7 +40,7 @@ const Cards = (props) => {
                 }
                 dispatch(projectsActions.setProjects(projectsArray))
                 setLoding(false)
-            }, 5000)
+            }, 2000)
             // return projectsArray
 
         } catch (e) {

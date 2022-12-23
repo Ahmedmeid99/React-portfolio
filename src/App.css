@@ -14,7 +14,7 @@ body {
 /*###################################*/
 /*########[ themes classes ]#########*/
 .light {
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 .dark {
   background-color: #222;
@@ -23,7 +23,7 @@ body {
   color: #222;
 }
 .dark-title {
-  color: #fff;
+  color: #f7f7f7;
 }
 /*###################################*/
 /*###################################*/

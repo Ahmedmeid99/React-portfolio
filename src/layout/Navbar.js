@@ -92,7 +92,7 @@ const Navbar = () => {
                     <div className={ classes['x-icon-cover'] }>
                         <FontAwesomeIcon onClick={ closeMenueHandler } icon={ faXmark } className={ `${classes.faXmark} ${classes.icon}` } />
                     </div>
-                    <ul className={ classes.list }>
+                    <ul className={ `${classes.list} ${them == 'dark' ? classes['list-dark'] : ''}` }>
                         <li className={ classes['list-item'] }><NavLink end to="/" className={ ({ isActive }) => (isActive ? classes.active : '') } >Home</NavLink></li>
                         <li className={ classes['list-item'] }><NavLink to="/about" className={ ({ isActive }) => (isActive ? classes.active : '') }>About</NavLink></li>
                         <li className={ classes['list-item'] }><NavLink to="/projects" className={ ({ isActive }) => (isActive ? classes.active : '') } >projects</NavLink></li>

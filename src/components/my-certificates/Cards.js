@@ -36,7 +36,7 @@ const Cards = (props) => {
                 // return projectsArray
                 dispatch(certificatesActions.setcertificates(certificatesArray))
                 setLoding(false)
-            }, 5000)
+            }, 2000)
         } catch (e) {
             console.log('error =>')
         }

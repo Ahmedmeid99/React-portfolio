@@ -8,10 +8,29 @@
   background-size: cover;
 }
 /* ********************* */
+.about {
+  flex-direction: column;
+  gap: 2rem;
+}
 .header-title {
   font-size: 6rem;
   text-align: center;
   line-height: 1.1;
   color: #fff;
   text-transform: uppercase;
+}
+.btn-cv {
+  padding: 10px 25px;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
+  border: 2px solid #147ac6;
+  text-decoration: none;
+}
+.btn-cv:hover {
+  background-color: #147ac6;
+  color: #fff;
 }

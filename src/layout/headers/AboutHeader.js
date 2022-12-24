@@ -1,22 +1,17 @@
 import classes from './AboutHeader.module.css'
-import { useState } from 'react'
 import { useSelector } from 'react-redux'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleCheck, faXmark } from '@fortawesome/free-solid-svg-icons'
-
+import cv from "../../assets/cv.pdf"
 const AboutHeader = () => {
-    const [openAlert, setOpenAlert] = useState(true)
     const isLogedin = useSelector((state) => state.users.isLogedin)
     const userType = useSelector((state) => state.users.userType)
 
-    const closeAlertHandler = () => setOpenAlert(false)
     return (
         <div className={ classes.landing }>
-
-            <div className="center section-title">
+            <div className={ `center section-title ${classes.about}` }>
                 <h1 className={ classes['header-title'] }>About Me</h1>
+                <a href={ cv } src={ cv } download title='cv' target='_blank' class={ classes["btn-cv"] }>Download CV</a>
             </div>
-        </div>
+        </div >
     )
 }
 export default AboutHeader

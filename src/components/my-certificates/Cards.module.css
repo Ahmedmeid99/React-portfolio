@@ -5,3 +5,15 @@
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
   gap: 3rem;
 }
+
+.internet {
+  text-align: center;
+  font-size: 2rem;
+  color: #ccc;
+  margin: 7rem 0 0;
+}
+.internet_text {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ccc;
+}

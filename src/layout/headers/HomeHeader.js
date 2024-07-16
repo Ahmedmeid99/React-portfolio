@@ -28,7 +28,7 @@ const Landing = () => {
             <FontAwesomeIcon icon={ faHtml5 } className={ `${classes.icon} ${classes['html-icon']}` } /> */}
             <div className={ `${classes.text} center` }>
                 <h1 className={ classes['header-title'] }>full stack developer <code className={ classes.mern }>.Net/React</code></h1>
-                <p className={ classes['header-subtitle'] }>Hi my name is ahmed mohamed eid ,I am a MERN stack developer , Full Stack Dotnet / React Developer, I am constantly striving to increase my skills in creating web apps and learnning new technologies </p>
+                <p className={ classes['header-subtitle'] }>Hi my name is ahmed mohamed eid , Full Stack Dotnet/React Developer, I'am constantly striving to increase my skills in creating web apps and learnning new technologies </p>
             </div>
         </div>
     )

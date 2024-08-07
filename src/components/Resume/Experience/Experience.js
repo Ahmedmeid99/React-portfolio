@@ -11,7 +11,7 @@ function Experience() {
               <span>Upwork</span>
             </div>
             <div className="ex_title">Front End Developer</div>
-            <p className="ex_text">Porfolio website design and devrlopment</p>
+            <p className="ex_text">Porfolio website design and development</p>
           </div>
         </div>
       </div>

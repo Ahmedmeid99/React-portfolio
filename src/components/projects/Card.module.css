@@ -22,6 +22,7 @@
   width: 100%;
   background-color: #aaa;
   border-radius: 10px 10px 0 0;
+  position: relative;
 }
 .img-cover img {
   width: 100%;
@@ -78,9 +79,16 @@
 /* tag list */
 .tag_list {
   display: flex;
-  justify-content: space-between;
-  list-style: none;
-  gap: 1rem;
-  font-size: 1.4rem;
-  padding: 0 0.5rem;
+    justify-content: end;
+    backdrop-filter: blur(5px);
+    list-style: none;
+    grid-gap: 1rem;
+    gap: 1rem;
+    font-size: 1.4rem;
+    padding: .5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #33333340;
 }

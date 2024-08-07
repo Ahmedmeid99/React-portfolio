@@ -19,7 +19,7 @@ export const projectsSlice = createSlice({
     reducers: {
         setProjects(state, action) {
             state.projects = action.payload
-            state.filtered = state.projects.filter((project) => project.mainTool === 'own')
+            state.filtered = state.projects.filter((project) => project.mainTool === 'dotnet')
         },
         addProject(state, action) {
             action = action.payload

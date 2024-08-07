@@ -14,7 +14,7 @@
   background: #242759;
   color: #cbcdeb;
 }
-.html {
+.html,.winform {
   background: #e79638;
   color: #ffedd9;
 }
@@ -34,11 +34,12 @@
   background: #0916c4de;
   color: #d9f0ff;
 }
-.mongodb,.sql {
+.mongodb {
   background: #0499b8ed;
   color: #daf8ffcc;
 }
 .firebase,
+.sql,
 .api {
   background: #e7e638d1;
   color: #585924;

@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faSquareGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
 import classes from "./Footer.module.css"
 import { useSelector } from "react-redux"
+import React from "react"
 const Footer = () => {
     const them = useSelector((state) => state.them.them)
 
     return (
         <div className={ `${classes.footer} ${them === 'dark' ? classes['dark-footer'] : ''}` }>
-            <h3 className={ classes.title }>portfolio website</h3>
+            {/* <h3 className={ classes.title }>portfolio website</h3> */}
             <div className={ `${classes.icons} ${classes.flex}` }>
                 <a href="https://www.linkedin.com/in/ahmed-mohamed-eid-267543225" target="_blank"><FontAwesomeIcon className={ `${classes.icon} ${classes.linkedin}` } icon={ faLinkedin } /></a>
                 <a href="https://github.com/Ahmedmeid99" target="_blank"><FontAwesomeIcon className={ `${classes.icon} ${classes.github}` } icon={ faSquareGithub } /></a>

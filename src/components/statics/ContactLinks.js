@@ -7,6 +7,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import classes from "./ContactLinks.module.css"
 import { useSelector } from 'react-redux';
+import React from 'react';
+
 const ContactLinks = () => {
     const them = useSelector((state) => state.them.them)
 

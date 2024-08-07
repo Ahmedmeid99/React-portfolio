@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React,{ useState } from "react"
 import classes from "./Card.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink, faEye, faXmark } from '@fortawesome/free-solid-svg-icons'

@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import React,{ useState, useRef } from 'react'
 import { NavLink, Link } from "react-router-dom"
 import usersActions from "../redux/usersSlice"
 import themActions from "../redux/themSlice"
@@ -94,7 +94,7 @@ const Navbar = () => {
                     </div>
                     <ul className={ `${classes.list} ${them == 'dark' ? classes['list-dark'] : ''}` }>
                         <li className={ classes['list-item'] }><NavLink end to="/" className={ ({ isActive }) => (isActive ? classes.active : '') } >Home</NavLink></li>
-                        <li className={ classes['list-item'] }><NavLink to="/about" className={ ({ isActive }) => (isActive ? classes.active : '') }>About</NavLink></li>
+                        {/* <li className={ classes['list-item'] }><NavLink to="/about" className={ ({ isActive }) => (isActive ? classes.active : '') }>About</NavLink></li> */}
                         <li className={ classes['list-item'] }><NavLink to="/projects" className={ ({ isActive }) => (isActive ? classes.active : '') } >projects</NavLink></li>
                         <li className={ classes['list-item'] }><NavLink to="/contactus" className={ ({ isActive }) => (isActive ? classes.active : '') }>contactus</NavLink></li>
                         { !isLogedin && <button onClick={ openFormHandler } className={ `${classes.btn} ${classes['btn-login']}` }>login</button> }

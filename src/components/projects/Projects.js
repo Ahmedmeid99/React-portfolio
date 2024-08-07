@@ -3,6 +3,7 @@ import projectsActions from "../../redux/projectsSlice"
 import { useDispatch, useSelector } from 'react-redux'
 import Cards from "./Cards"
 import Model from "./Model"
+import React from "react"
 
 const Projects = () => {
     const dispatch = useDispatch()
@@ -18,7 +19,7 @@ const Projects = () => {
         <div className={ `full pb ${them}` }>
             <div className={ `section container` }>
                 <div className={ classes['projects-controller'] }>
-                    <div onClick={ () => filterBy('own') } className={ classes.option }>own</div>
+                    <div onClick={ () => filterBy('dotnet') } className={ classes.option }>.net</div>
                     <div onClick={ () => filterBy('node') } className={ classes.option }>node</div>
                     <div onClick={ () => filterBy('react') } className={ classes.option }>react</div>
                     <div onClick={ () => filterBy('js') } className={ classes.option }>js</div>

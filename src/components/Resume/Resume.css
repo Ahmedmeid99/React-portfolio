@@ -1,0 +1,162 @@
+/* ///////////////////////// */
+.info {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 0 auto 100px;
+  padding-top: 100px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.about {
+  background: #fff;
+  transform: translateY(-6rem);
+}
+.about-title {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 2px 1px 5px -1px rgb(0 0 0 / 15%);
+  padding: 40px 0;
+  border-color: #ccc transparent #ccc;
+}
+.resume-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #222;
+}
+.about-title span {
+  font-size: 14px;
+  color: #aaa;
+}
+.about_content {
+  padding: 35px 0;
+  display: flex;
+  gap: 30px;
+}
+.eductation {
+  flex: 1;
+}
+.experience {
+  flex: 1;
+}
+@media (max-width: 800px) {
+  .about_content {
+    flex-direction: column-reverse;
+  }
+}
+.object_title {
+  font-size: 22px;
+  color: #111;
+  position: relative;
+  width: fit-content;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+.object_title::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 3px;
+  background: #e6e6e6;
+}
+.object_title::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 30%;
+  height: 3px;
+  background: #147ac6;
+}
+.boxes {
+}
+.box {
+  border: 1px solid;
+  border-color: transparent transparent #e9e9e9 #e9e9e9;
+  /* margin-bottom: 1rem; */
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  left: -10px;
+  top: 10px;
+  background: #fff;
+  margin-bottom: 25px;
+}
+.year {
+  border: 2px solid #147ac6;
+  padding: 0px 9px;
+  border-radius: 25px;
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+}
+.date > span {
+  color: #ccc;
+  font-size: 18px;
+}
+.edu_title ,.ex_title{
+  padding: 0 30px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+.list-title{
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.order-list{
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.order-list li{
+  font-size: 14px;
+}
+.edu_text, .ex_text {
+  padding: 0 30px;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+/* skills */
+/* /////// */
+.skills {
+}
+.skills .object_title {
+  margin: 20px;
+}
+.skills-content {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills-content span {
+  display: black;
+}
+.skills-content .box {
+  display: flex;
+  flex-direction: column;
+  min-width: 157px;
+  margin-bottom: 3rem;
+  gap: 10px;
+  flex: 1;
+  border: none;
+}
+.skills-content .box > span {
+  width: fit-content;
+  border: 1px solid #ccc;
+  padding: 0px 10px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+

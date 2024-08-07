@@ -1,5 +1,5 @@
 import classes from './ProjectsHeader.module.css'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

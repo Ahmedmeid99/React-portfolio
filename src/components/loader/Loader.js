@@ -1,4 +1,5 @@
 import classes from "./Loader.module.css"
+import React from "react"
 const Loader = () => {
     return (
         <p className={ classes.loading }>

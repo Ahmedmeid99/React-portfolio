@@ -1,3 +1,4 @@
+import React from "react"
 import classes from "./Card.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink, faCode } from '@fortawesome/free-solid-svg-icons'

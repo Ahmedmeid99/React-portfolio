@@ -3,7 +3,7 @@ import certificatesActions from "../../redux/certificatesSlice"
 import { useDispatch, useSelector } from 'react-redux'
 import Cards from "./Cards"
 import Model from "./Model"
-
+import React from "react"
 const Certificates = () => {
     const dispatch = useDispatch()
     const them = useSelector((state) => state.them.them)

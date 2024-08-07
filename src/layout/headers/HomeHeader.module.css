@@ -1,24 +1,4 @@
-:root {
-  /* main color */
-  --main-color1: #0484dc;
 
-  --main-color2: #024c9e;
-  --main-color3: #002669;
-  --main-color-1: #3dadea;
-  --main-color-2: #98e4fb;
-  --main-color-3: #cbf4fd;
-  --main-color0: #3dadea91;
-  --success-color1: #3ec93e;
-  --success-color2: #0b6029;
-  --danger-color1: #fc473a;
-  --danger-color2: #921229;
-  --light-color: #eee;
-  --grey-color: #aaa;
-  --dark-0: #000;
-  --dark-1: #111;
-  --dark-2: #222;
-  --dark-3: #333;
-}
 
 /* ########## */
 .landing {

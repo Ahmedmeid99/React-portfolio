@@ -1,6 +1,7 @@
 import classes from './AboutHeader.module.css'
 import { useSelector } from 'react-redux'
 import cv from "../../assets/cv.pdf"
+import React from 'react'
 const AboutHeader = () => {
     const isLogedin = useSelector((state) => state.users.isLogedin)
     const userType = useSelector((state) => state.users.userType)

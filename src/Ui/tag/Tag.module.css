@@ -18,12 +18,11 @@
   background: #e79638;
   color: #ffedd9;
 }
-.node,
-.hooks {
+.node,.dotnet {
   background: #098d0fe8;
   color: #deffd9;
 }
-.express {
+.express,.mvc {
   background: #2c09c4e0;
   color: #e7daff;
 }
@@ -35,7 +34,7 @@
   background: #0916c4de;
   color: #d9f0ff;
 }
-.mongodb {
+.mongodb,.sql {
   background: #0499b8ed;
   color: #daf8ffcc;
 }
@@ -45,6 +44,7 @@
   color: #585924;
 }
 .bootstrap,
+.hooks,
 .angular,
 .scss {
   background: #c40909db;

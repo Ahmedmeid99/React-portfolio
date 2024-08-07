@@ -16,7 +16,7 @@ const Projects = () => {
     }
 
     return (
-        <div className={ `full pb ${them}` }>
+        <div className={ `full ${them}` }>
             <div className={ `section container` }>
                 <div className={ classes['projects-controller'] }>
                     <div onClick={ () => filterBy('dotnet') } className={ classes.option }>.net</div>

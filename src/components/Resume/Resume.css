@@ -12,7 +12,6 @@
 }
 .about {
   background: #fff;
-  transform: translateY(-6rem);
 }
 .about-title {
   background-color: #f0f0f0;
@@ -85,7 +84,6 @@
   position: relative;
   left: -10px;
   top: 10px;
-  background: #fff;
   margin-bottom: 25px;
 }
 .year {
@@ -119,11 +117,12 @@
 }
 .order-list li{
   font-size: 14px;
+  font-weight: 600;
 }
 .edu_text, .ex_text {
   padding: 0 30px;
   font-size: 16px;
-  color: #444;
+  color: #000;
   margin-bottom: 30px;
 }
 

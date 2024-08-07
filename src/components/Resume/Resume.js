@@ -1,14 +1,16 @@
 import React from "react";
+import { useSelector } from 'react-redux'
 import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
 import "./Resume.css";
 import Skills from "./Skills/Skills";
 function Resume() {
+  const them = useSelector((state) => state.them.them)
   return (
-    <div class="about">
-      <div class="about-title ">
-        <div class="container">
-          <h2 class="resume-title">Resume</h2>
+    <div className={ `about ${them}` }>
+      <div className={ `about-title ${them}` }>
+        <div className="container">
+          <h2 className="resume-title">Resume</h2>
           <span>3 Years of Experience</span>
         </div>
       </div>

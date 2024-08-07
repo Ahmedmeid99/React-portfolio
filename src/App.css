@@ -17,7 +17,7 @@ body {
   background-color: #f7f7f7;
 }
 .dark {
-  background-color: #222;
+  background-color: #333;
 }
 .light-title {
   color: #222;
@@ -32,6 +32,7 @@ body {
 .full {
   width: 100%;
   height: fit-content;
+  padding: 3rem 0;
 }
 .container {
   width: 90%;
@@ -46,7 +47,6 @@ body {
 }
 
 .section {
-  padding-bottom: 6rem;
   position: relative;
   overflow-x: hidden;
 }
@@ -68,8 +68,8 @@ body {
   bottom: 2rem;
   left: 0;
 }
-.pb {
-  padding-bottom: 3rem;
+.padding-section {
+  padding-bottom: 3rem 0;
 }
 /* ************************************ */
 /* Forms style */

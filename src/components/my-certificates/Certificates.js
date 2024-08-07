@@ -13,7 +13,7 @@ const Certificates = () => {
         dispatch(certificatesActions.filterBy(type))
     }
     return (
-        <div className={ `full pb ${them}` }>
+        <div className={ `full ${them}` }>
             <div className={ `section container` }>
                 <div className={ classes['projects-controller'] }>
                     <div onClick={ () => filterBy('udemy') } className={ classes.option }>Udemy</div>

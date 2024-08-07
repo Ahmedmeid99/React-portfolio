@@ -41,8 +41,8 @@ const AboutDetails = () => {
 
     return (
         <div className={ `full ${them}` }>
-            <div className="container pb">
-                <div className="flex pb">
+            <div className="container ">
+                <div className="flex ">
                     <a className={ classes.link } href="https://www.linkedin.com/in/ahmed-mohamed-eid-267543225" target="_blank"><FontAwesomeIcon icon={ faLinkedin } className={ `${classes.icon} ${classes.linkedin}` } /></a>
                     <a className={ classes.link } href="https://github.com/Ahmedmeid99" target="_blank"><FontAwesomeIcon icon={ faSquareGithub } className={ `${classes.icon} ${classes.linkedin}` } /></a>
                     <a className={ classes.link } href="https://codepen.io/ahmedmeid99" target="_blank"><FontAwesomeIcon icon={ faCodepen } className={ `${classes.icon} ${classes.linkedin}` } /></a>
